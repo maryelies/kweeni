@@ -18,3 +18,5 @@ app.use('/', route);
 app.listen(config.port, () => {
     console.log('Server listening at port ${config.port}.');
 });
+
+module.exports = app;
