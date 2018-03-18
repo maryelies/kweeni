@@ -1,5 +1,10 @@
 /*HOME*/
 
+body
+{
+    font-family: 'Slabo 13px',serif;
+}
+
 .indexheader
 {
     background-color: #DCDCDC;
