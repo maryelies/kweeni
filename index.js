@@ -12,6 +12,9 @@ const config = {
 // load files that are in the public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
+// set routes
+app.use('/', route);
+
 app.listen(config.port, () => {
     console.log('Server listening at port ${config.port}.');
 });
